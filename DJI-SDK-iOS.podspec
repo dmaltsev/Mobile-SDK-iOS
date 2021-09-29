@@ -38,7 +38,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   s.author       = { "DJI SDK" => "dev@dji.com" }
   s.platform     = :ios, '9.0'
   s.requires_arc = true
-  s.source       = { :http => "https://terra-1-g.djicdn.com/71a7d383e71a4fb8887a310eb746b47f/msdk/iOS_Mobile_SDK_4.15.1_20210819.zip"}
+  s.source       = { :http => "https://dronebase-documents.s3.amazonaws.com/pilots/dji_4.15.1_fixed_header.zip"}
   s.ios.vendored_frameworks = 'iOS_Mobile_SDK/DJISDK.framework'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 armv7 i386', "EXCLUDED_ARCHS[sdk=iphoneos*]" => "x86_64 armv7 i386"}
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 armv7 i386', "EXCLUDED_ARCHS[sdk=iphoneos*]" => "x86_64 armv7 i386"}
