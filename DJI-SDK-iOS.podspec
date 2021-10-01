@@ -39,7 +39,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   s.platform     = :ios, '9.0'
   s.requires_arc = true
   s.source       = { :http => "https://pilots.dronebase.com/dji-sdk/dji-4.5.1.zip" }
-  s.ios.vendored_frameworks = 'iOS_Mobile_SDK/DJISDK.framework'
+  s.ios.vendored_frameworks = 'dji-4.5.1/DJISDK.framework'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 armv7 i386', "EXCLUDED_ARCHS[sdk=iphoneos*]" => "x86_64 armv7 i386"}
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 armv7 i386', "EXCLUDED_ARCHS[sdk=iphoneos*]" => "x86_64 armv7 i386"}
 
